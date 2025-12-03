@@ -1,0 +1,23 @@
+
+*{box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#fafafa;color:#222}
+header.site-header{text-align:center;padding:20px 12px;background:#fff;border-bottom:1px solid #eee}
+header.site-header h1{margin:0;font-size:1.6rem;color:#116}
+header .tagline{margin:6px 0;color:#666}
+
+.content{max-width:900px;margin:18px auto;padding:12px}
+.search{margin-bottom:14px}
+.search input[type="search"]{width:100%;padding:10px;border:1px solid #ddd;border-radius:6px}
+
+.listings{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.property{background:#fff;padding:10px;border:1px solid #eee;border-radius:6px;text-align:center}
+.property img{max-width:100%;height:auto;border-radius:4px}
+.property h2{font-size:1.05rem;margin:8px 0}
+.property p{color:#555;margin:6px 0}
+.property .enquire{display:inline-block;background:#116;color:#fff;padding:8px 10px;border-radius:6px;text-decoration:none}
+
+footer.site-footer{text-align:center;color:#777;padding:12px}
+
+@media (max-width:480px){
+	header.site-header h1{font-size:1.25rem}
+}
